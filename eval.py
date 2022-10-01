@@ -37,8 +37,8 @@ def micro_f1(pred, label, neg):
 def parse_():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--test-file', type=str, default='./data/kgpool/kgpool_wiki20m_result.csv')
-    parser.add_argument('--NA', type=str, default='NA')
+    parser.add_argument('--test-file', type=str)
+    parser.add_argument('--NA', type=str, default='')
 
     return parser.parse_args()
 
