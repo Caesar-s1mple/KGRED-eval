@@ -1,0 +1,9 @@
+#files
+.zip
+.rar
+
+
+#others
+__pycache__
+*.pyc
+.idea
